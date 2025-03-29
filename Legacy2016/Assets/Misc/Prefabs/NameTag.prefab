@@ -633,6 +633,7 @@ GameObject:
   - component: {fileID: 6410862559946604493}
   - component: {fileID: 8745484821454208114}
   - component: {fileID: 7810881284181770482}
+  - component: {fileID: 443914456118778510}
   m_Layer: 16
   m_Name: LabelCanvas
   m_TagString: Untagged
@@ -707,3 +708,19 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
+--- !u!114 &443914456118778510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8099601162281474727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 701ec7c07dd29724293a3a92b210a5bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInteractable: 0
+  canBeAnchored: 0
+  anchorAttachmentMode: 0
+  controlPromptBehaviorOverride: 0
