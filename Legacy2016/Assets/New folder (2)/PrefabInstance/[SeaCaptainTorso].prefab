@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1395384042000334}
+  m_IsPrefabParent: 1
+--- !u!1 &1395384042000334
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4321990116897922}
+  - component: {fileID: 114998687244704006}
+  m_Layer: 10
+  m_Name: '[SeaCaptainTorso]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4321990116897922
+Transform:
+  m_GameObject: {fileID: 1395384042000334}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4634784644029440}
+  - {fileID: 4452430677398873}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114998687244704006
+MonoBehaviour:
+  m_GameObject: {fileID: 1395384042000334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ce035efee12a141be50953f9c23705, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  SkinnedMeshRenderer: {fileID: 137598746474108538}
+  guidString: 0bc6bd1b-8b7e-4945-a1d6-c26b9c043318
+  Type: 101
+  DisplayOnRack: 1
+  UsesHairColor: 0
+  outfitTriggerEnabled: 0
+  triggerEnabledOutsideDormroom: 0
+  Level: 12
+  Rarity: 1
+  NoMaskRarity: 1
+  SelectionGroups:
+  - name: SolidColor
+    noneDecalRarity: 0
+    masks:
+    - {fileID: 11400000, guid: c25d6138bc66fc1428ced962507250e1, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: 4fd21d554a534bf409767bd80ef0ccda, type: 2}
+    - {fileID: 11400000, guid: 29caa21ba26f4bf4b961738e8676e388, type: 2}
+    - {fileID: 11400000, guid: 9f5f581ce0ed2de4bac8bcbb13db7095, type: 2}
+    - {fileID: 11400000, guid: f0b6daac0214f494e9b713060e8500f0, type: 2}
+    - {fileID: 11400000, guid: a6120ccf96c0ecb4290ae6737ea16b97, type: 2}
+    - {fileID: 11400000, guid: ea731045f9810af46898799b51acbc32, type: 2}
+    - {fileID: 11400000, guid: fa8279d67f64932498e3048c8d398eb6, type: 2}
+    decals: []
+  preferredIndex: 0
+  PreferredRackName:
+  RackHeightOffset: 0
+  outfitToolUIControlOffset: {x: 0, y: 0.556, z: 0}
+  uiAnchor: {fileID: 0}
+--- !u!1 &1695219663026377
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4634784644029440}
+  m_Layer: 0
+  m_Name: Torso.Rig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4634784644029440
+Transform:
+  m_GameObject: {fileID: 1695219663026377}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4410933355661536}
+  m_Father: {fileID: 4321990116897922}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1208144468291688
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4410933355661536}
+  m_Layer: 0
+  m_Name: Torso.Bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4410933355661536
+Transform:
+  m_GameObject: {fileID: 1208144468291688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4212103510704735}
+  m_Father: {fileID: 4634784644029440}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1142126586030980
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4212103510704735}
+  m_Layer: 0
+  m_Name: Torso.Bone_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4212103510704735
+Transform:
+  m_GameObject: {fileID: 1142126586030980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3518934, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4410933355661536}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1020539964511346
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4452430677398873}
+  m_Layer: 0
+  m_Name: TorsoPropGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4452430677398873
+Transform:
+  m_GameObject: {fileID: 1020539964511346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4087182768765633}
+  m_Father: {fileID: 4321990116897922}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1162920485819006
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4087182768765633}
+  - component: {fileID: 137598746474108538}
+  m_Layer: 0
+  m_Name: SeaCaptainTorso
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4087182768765633
+Transform:
+  m_GameObject: {fileID: 1162920485819006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4452430677398873}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &137598746474108538
+SkinnedMeshRenderer:
+  m_GameObject: {fileID: 1162920485819006}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: d002c533483e2464f8eaee8766e3faa2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 1
+  m_skinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: c4f5ba1c57d9ebc42a502c00abedc870, type: 2}
+  m_Bones:
+  - {fileID: 4410933355661536}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4410933355661536}
+  m_AABB:
+    m_Center: {x: -2.235174E-07, y: 0.04220334, z: -0.001714043}
+    m_Extent: {x: 0.1741397, y: 0.3480364, z: 0.1185014}
+  m_DirtyAABB: 0

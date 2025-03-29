@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1740773733498329}
+  m_IsPrefabParent: 1
+--- !u!1 &1740773733498329
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4350061698605032}
+  - component: {fileID: 114373618522365814}
+  m_Layer: 10
+  m_Name: '[Shirt_Jersey]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4350061698605032
+Transform:
+  m_GameObject: {fileID: 1740773733498329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.98, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4053065394675461}
+  - {fileID: 4270159936274350}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114373618522365814
+MonoBehaviour:
+  m_GameObject: {fileID: 1740773733498329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ce035efee12a141be50953f9c23705, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  SkinnedMeshRenderer: {fileID: 137272691140775529}
+  guidString: 7b857a8c-92ad-4028-a2c2-b3c20cdab5f2
+  Type: 101
+  DisplayOnRack: 1
+  UsesHairColor: 0
+  outfitTriggerEnabled: 0
+  triggerEnabledOutsideDormroom: 0
+  Level: 1
+  Rarity: 1
+  NoMaskRarity: 1
+  SelectionGroups:
+  - name: SolidColor
+    noneDecalRarity: 1
+    masks:
+    - {fileID: 11400000, guid: 7ea71ab23e342c64791404ae04be407c, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: ce6611563db14164590446b52ac92fe0, type: 2}
+    - {fileID: 11400000, guid: d7887cfae397cb74798d64d48af290e0, type: 2}
+    - {fileID: 11400000, guid: 97141592be5024d44bedb79e38b50cf8, type: 2}
+    - {fileID: 11400000, guid: 2f126537cb2c95041802cf041ffde13a, type: 2}
+    decals: []
+  - name: Fatigue
+    noneDecalRarity: 1
+    masks:
+    - {fileID: 11400000, guid: a34bc07da49c6cc4e9caf4908bec6bb6, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: c049b44c29b8cfe47940bd64fc112fec, type: 2}
+    decals: []
+  - name: Zebra
+    noneDecalRarity: 1
+    masks:
+    - {fileID: 11400000, guid: 999562b6e87d39b4ea8040ed9afb222b, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: 41ea9bdd085357a4891f05897a68cc3d, type: 2}
+    decals: []
+  - name: Polka
+    noneDecalRarity: 1
+    masks:
+    - {fileID: 11400000, guid: 38b08440782f06c40a136d414a9f2ff7, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: 2e447f16f11da2b4989a86d624b709ef, type: 2}
+    decals: []
+  - name: Stripe
+    noneDecalRarity: 1
+    masks:
+    - {fileID: 11400000, guid: b9d44deb111bddc47ba8652f2059ad8a, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: d22d6814c8dbd854984fb15e74148493, type: 2}
+    decals: []
+  - name: Outline
+    noneDecalRarity: 1
+    masks:
+    - {fileID: 11400000, guid: 981acb39ab1d00d438961282045d34f7, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: ce6611563db14164590446b52ac92fe0, type: 2}
+    - {fileID: 11400000, guid: d7887cfae397cb74798d64d48af290e0, type: 2}
+    - {fileID: 11400000, guid: 97141592be5024d44bedb79e38b50cf8, type: 2}
+    decals: []
+  preferredIndex: 0
+  PreferredRackName:
+  RackHeightOffset: 0
+  outfitToolUIControlOffset: {x: 0, y: 0.556, z: 0}
+  uiAnchor: {fileID: 0}
+--- !u!1 &1633124520007417
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4053065394675461}
+  m_Layer: 10
+  m_Name: Torso.Rig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4053065394675461
+Transform:
+  m_GameObject: {fileID: 1633124520007417}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4852491934079537}
+  m_Father: {fileID: 4350061698605032}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1915319117309214
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4852491934079537}
+  m_Layer: 10
+  m_Name: Torso.Bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4852491934079537
+Transform:
+  m_GameObject: {fileID: 1915319117309214}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4379631152526018}
+  m_Father: {fileID: 4053065394675461}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1493855744750116
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4379631152526018}
+  m_Layer: 10
+  m_Name: Torso.Bone_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4379631152526018
+Transform:
+  m_GameObject: {fileID: 1493855744750116}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3518934, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4852491934079537}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1534221390158955
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4270159936274350}
+  m_Layer: 10
+  m_Name: TorsoPropGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4270159936274350
+Transform:
+  m_GameObject: {fileID: 1534221390158955}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4630388066998183}
+  m_Father: {fileID: 4350061698605032}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1244786623565542
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4630388066998183}
+  - component: {fileID: 137272691140775529}
+  m_Layer: 10
+  m_Name: Shirt.Jersey.Geo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4630388066998183
+Transform:
+  m_GameObject: {fileID: 1244786623565542}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: -1.862645E-09, y: 1.150241, z: -3.72529E-09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4270159936274350}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
+--- !u!137 &137272691140775529
+SkinnedMeshRenderer:
+  m_GameObject: {fileID: 1244786623565542}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 010d24af701b750478844fbbf1a33f3e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 1
+  m_skinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 5eb5bd0c6f1c1c84bb2be56814ec7b6e, type: 2}
+  m_Bones:
+  - {fileID: 4852491934079537}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4852491934079537}
+  m_AABB:
+    m_Center: {x: 0, y: 0.04356593, z: -0.009009428}
+    m_Extent: {x: 0.1941723, y: 0.3059334, z: 0.1081922}
+  m_DirtyAABB: 0

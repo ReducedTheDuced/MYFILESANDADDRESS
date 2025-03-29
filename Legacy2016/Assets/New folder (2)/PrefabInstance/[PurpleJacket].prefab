@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1777082161043568}
+  m_IsPrefabParent: 1
+--- !u!1 &1777082161043568
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4218857304782600}
+  - component: {fileID: 114790502188909655}
+  m_Layer: 10
+  m_Name: '[PurpleJacket]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4218857304782600
+Transform:
+  m_GameObject: {fileID: 1777082161043568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4406466768065771}
+  - {fileID: 4751430806719111}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114790502188909655
+MonoBehaviour:
+  m_GameObject: {fileID: 1777082161043568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ce035efee12a141be50953f9c23705, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  SkinnedMeshRenderer: {fileID: 137523701717207666}
+  guidString: 745c5110-104e-4b37-aabf-7c690fd54811
+  Type: 101
+  DisplayOnRack: 1
+  UsesHairColor: 0
+  outfitTriggerEnabled: 0
+  triggerEnabledOutsideDormroom: 0
+  Level: 7
+  Rarity: 1
+  NoMaskRarity: 1
+  SelectionGroups: []
+  preferredIndex: 0
+  PreferredRackName: Dress
+  RackHeightOffset: 0
+  outfitToolUIControlOffset: {x: 0, y: 0.5, z: 0}
+  uiAnchor: {fileID: 0}
+--- !u!1 &1285804812972980
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4406466768065771}
+  m_Layer: 0
+  m_Name: Torso.Rig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4406466768065771
+Transform:
+  m_GameObject: {fileID: 1285804812972980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4416341501142156}
+  m_Father: {fileID: 4218857304782600}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1818276089253593
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4416341501142156}
+  m_Layer: 0
+  m_Name: Torso.Bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4416341501142156
+Transform:
+  m_GameObject: {fileID: 1818276089253593}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4759615763073451}
+  m_Father: {fileID: 4406466768065771}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1810672694098128
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4759615763073451}
+  m_Layer: 0
+  m_Name: Torso.Bone_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4759615763073451
+Transform:
+  m_GameObject: {fileID: 1810672694098128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3518934, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4416341501142156}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1577323567641221
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4751430806719111}
+  m_Layer: 0
+  m_Name: TorsoPropGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4751430806719111
+Transform:
+  m_GameObject: {fileID: 1577323567641221}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4988219086740331}
+  m_Father: {fileID: 4218857304782600}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1662402899694914
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4988219086740331}
+  - component: {fileID: 137523701717207666}
+  m_Layer: 0
+  m_Name: PurpleJacket
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4988219086740331
+Transform:
+  m_GameObject: {fileID: 1662402899694914}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: 1.150242, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4751430806719111}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
+--- !u!137 &137523701717207666
+SkinnedMeshRenderer:
+  m_GameObject: {fileID: 1662402899694914}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c5ef7627ed5d0174b88d536a3b58e1b9, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 1
+  m_skinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: cb6c43b2a7017ba4fb1ab0be50797e48, type: 2}
+  m_Bones:
+  - {fileID: 4416341501142156}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4416341501142156}
+  m_AABB:
+    m_Center: {x: 0, y: -0.04485959, z: -0.009531096}
+    m_Extent: {x: 0.2221475, y: 0.417329, z: 0.126415}
+  m_DirtyAABB: 0

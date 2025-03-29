@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1759166932524209}
+  m_IsPrefabParent: 1
+--- !u!1 &1759166932524209
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4552252390281553}
+  - component: {fileID: 114229980955544099}
+  m_Layer: 10
+  m_Name: '[CollarShirt]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4552252390281553
+Transform:
+  m_GameObject: {fileID: 1759166932524209}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19.15, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4493930614878666}
+  - {fileID: 4191570814536738}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114229980955544099
+MonoBehaviour:
+  m_GameObject: {fileID: 1759166932524209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ce035efee12a141be50953f9c23705, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  SkinnedMeshRenderer: {fileID: 137291878668115854}
+  guidString: 2e59d8d0-91a0-4449-bfdc-a5d663fd9343
+  Type: 101
+  DisplayOnRack: 1
+  UsesHairColor: 0
+  outfitTriggerEnabled: 0
+  triggerEnabledOutsideDormroom: 0
+  Level: 1
+  Rarity: 1
+  NoMaskRarity: 0.163
+  SelectionGroups:
+  - name: Plaid
+    noneDecalRarity: 1
+    masks:
+    - {fileID: 11400000, guid: 4d0f8a4b36c16fc45a4618ec71aebdd9, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: dd7113117b2bdfa46bb004bde81e72ec, type: 2}
+    - {fileID: 11400000, guid: 9b7f328c3c7ba384ca8a18024cefc0be, type: 2}
+    decals: []
+  - name: Argyle
+    noneDecalRarity: 1
+    masks:
+    - {fileID: 11400000, guid: ad56db70db155bb48ac248a75f447a09, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: d9101213c099f6448982e080dc1ee18c, type: 2}
+    - {fileID: 11400000, guid: 21e849a75fb9d044a80643c0eeea44c1, type: 2}
+    decals: []
+  - name: SolidColor
+    noneDecalRarity: 1
+    masks:
+    - {fileID: 11400000, guid: 7ea71ab23e342c64791404ae04be407c, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: a63e2cf706fb36d48a5850aa091da676, type: 2}
+    - {fileID: 11400000, guid: d1022388710b54444b0e96850e5f90b1, type: 2}
+    - {fileID: 11400000, guid: 750696086d8ea9e438337f299237e146, type: 2}
+    - {fileID: 11400000, guid: 97141592be5024d44bedb79e38b50cf8, type: 2}
+    - {fileID: 11400000, guid: d7887cfae397cb74798d64d48af290e0, type: 2}
+    decals: []
+  - name: Flower
+    noneDecalRarity: 1
+    masks:
+    - {fileID: 11400000, guid: 157192fe434c24a43aa66663a029dbd5, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: 380888993460bf9429fe339a03471875, type: 2}
+    decals: []
+  - name: Stripe
+    noneDecalRarity: 1
+    masks:
+    - {fileID: 11400000, guid: e58e45c4d72a5874fb76fbce98164ced, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: 41ea9bdd085357a4891f05897a68cc3d, type: 2}
+    decals:
+    - {fileID: 11400000, guid: 4c30685bcb5ee054d8135207d9c29a10, type: 2}
+  - name: Denim
+    noneDecalRarity: 1
+    masks:
+    - {fileID: 11400000, guid: 77d232e550a205742affcbb8a7010d35, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: db5c566f5037e8040aaf650c85c65a40, type: 2}
+    decals: []
+  preferredIndex: 0
+  PreferredRackName:
+  RackHeightOffset: 0
+  outfitToolUIControlOffset: {x: 0, y: 0.556, z: 0}
+  uiAnchor: {fileID: 0}
+--- !u!1 &1535144924749835
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4493930614878666}
+  m_Layer: 10
+  m_Name: Torso.Rig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4493930614878666
+Transform:
+  m_GameObject: {fileID: 1535144924749835}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4449149002410982}
+  m_Father: {fileID: 4552252390281553}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1215894295012293
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4449149002410982}
+  m_Layer: 10
+  m_Name: Torso.Bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4449149002410982
+Transform:
+  m_GameObject: {fileID: 1215894295012293}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4601108533993989}
+  m_Father: {fileID: 4493930614878666}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1656690234576463
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4601108533993989}
+  m_Layer: 10
+  m_Name: Torso.Bone_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4601108533993989
+Transform:
+  m_GameObject: {fileID: 1656690234576463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3518934, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4449149002410982}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1255992128867851
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4191570814536738}
+  m_Layer: 10
+  m_Name: TorsoPropGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4191570814536738
+Transform:
+  m_GameObject: {fileID: 1255992128867851}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4690819750915521}
+  m_Father: {fileID: 4552252390281553}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1514523036449268
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4690819750915521}
+  - component: {fileID: 137291878668115854}
+  m_Layer: 10
+  m_Name: Shirt.Collar.Geo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4690819750915521
+Transform:
+  m_GameObject: {fileID: 1514523036449268}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4191570814536738}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &137291878668115854
+SkinnedMeshRenderer:
+  m_GameObject: {fileID: 1514523036449268}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: cba15a1d1d27b814a8faec3b51235985, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 1
+  m_skinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 831b7e80343114d4293d73b5d18bd39d, type: 2}
+  m_Bones:
+  - {fileID: 4449149002410982}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4449149002410982}
+  m_AABB:
+    m_Center: {x: 0, y: 0.02994531, z: -0.00794591}
+    m_Extent: {x: 0.2214463, y: 0.3518175, z: 0.1155659}
+  m_DirtyAABB: 0

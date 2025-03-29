@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1404191909061189}
+  m_IsPrefabParent: 1
+--- !u!1 &1404191909061189
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4790702291835685}
+  - component: {fileID: 114293248428990578}
+  m_Layer: 10
+  m_Name: '[Neck_FemaleCheerSash]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4790702291835685
+Transform:
+  m_GameObject: {fileID: 1404191909061189}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4850034808454333}
+  - {fileID: 4051560703893737}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114293248428990578
+MonoBehaviour:
+  m_GameObject: {fileID: 1404191909061189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ce035efee12a141be50953f9c23705, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  SkinnedMeshRenderer: {fileID: 137133126281926712}
+  guidString: 60067e91-18b8-43ab-ae20-a8ea74c757bf
+  Type: 100
+  DisplayOnRack: 1
+  UsesHairColor: 0
+  outfitTriggerEnabled: 1
+  triggerEnabledOutsideDormroom: 0
+  Level: 7
+  Rarity: 1
+  NoMaskRarity: 1
+  SelectionGroups: []
+  preferredIndex: 1
+  PreferredRackName: Accessory
+  RackHeightOffset: 0
+  outfitToolUIControlOffset: {x: 0, y: 0.5, z: 0}
+  uiAnchor: {fileID: 0}
+--- !u!1 &1110686627836674
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4850034808454333}
+  m_Layer: 10
+  m_Name: Torso.Rig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4850034808454333
+Transform:
+  m_GameObject: {fileID: 1110686627836674}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4471024358265703}
+  m_Father: {fileID: 4790702291835685}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1981999870532017
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4471024358265703}
+  m_Layer: 10
+  m_Name: Torso.Bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4471024358265703
+Transform:
+  m_GameObject: {fileID: 1981999870532017}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4348192922008608}
+  m_Father: {fileID: 4850034808454333}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1082659597674559
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4348192922008608}
+  m_Layer: 10
+  m_Name: Torso.Bone_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4348192922008608
+Transform:
+  m_GameObject: {fileID: 1082659597674559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3518934, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4471024358265703}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1726502348961241
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4051560703893737}
+  m_Layer: 10
+  m_Name: TorsoPropGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4051560703893737
+Transform:
+  m_GameObject: {fileID: 1726502348961241}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4896364301491043}
+  m_Father: {fileID: 4790702291835685}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1910298825694941
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4896364301491043}
+  - component: {fileID: 137133126281926712}
+  m_Layer: 10
+  m_Name: FemaleCheerSash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4896364301491043
+Transform:
+  m_GameObject: {fileID: 1910298825694941}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4051560703893737}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
+--- !u!137 &137133126281926712
+SkinnedMeshRenderer:
+  m_GameObject: {fileID: 1910298825694941}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: af80c79710928ef41a57f511823dac11, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 1
+  m_skinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 10611b3c92ddd0544a52b21dd1e0e7d0, type: 2}
+  m_Bones:
+  - {fileID: 4471024358265703}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4471024358265703}
+  m_AABB:
+    m_Center: {x: 0.008012086, y: 0.1501189, z: -0.003334314}
+    m_Extent: {x: 0.1539622, y: 0.1822131, z: 0.1198698}
+  m_DirtyAABB: 0

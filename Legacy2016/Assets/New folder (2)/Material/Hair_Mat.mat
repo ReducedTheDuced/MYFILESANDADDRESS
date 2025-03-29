@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_Name: Hair_Mat
+  m_Shader: {fileID: 4800000, guid: 0121ee507ddf5b748979b087ae90f400, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 13513c67e0f65fa4b82403a7d968059a, type: 3}
+        m_Scale: {x: 2.93, y: 2.1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap2:
+        m_Texture: {fileID: 2800000, guid: 09575a98160aee047b5e6d2c0ddbcbbb, type: 3}
+        m_Scale: {x: 7.94, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - _Col_Tex:
+        m_Texture: {fileID: 2800000, guid: 6cf4cb298719f5446bcd22e6729e8d65, type: 3}
+        m_Scale: {x: 2.93, y: 2.1}
+        m_Offset: {x: 0, y: 0}
+    - _Spec_Tex:
+        m_Texture: {fileID: 2800000, guid: 6ea59c585a95f9b4dac671e0d2b22d9e, type: 3}
+        m_Scale: {x: 2.93, y: 2.1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Dirt_Exp: 1.64
+    - _Dirt_Intensity: 0.27
+    - _Dirt_Level: 0.27
+    - _Dirt_Mult: 0.5
+    - _DstBlend: 0
+    - _Emit_Lerp: 0
+    - _Fresnel: 1.75
+    - _Gloss: 0.561
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Highlight: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _Normal: 1
+    - _Normal_Detail_Mult: 0.72
+    - _Normal_Mult: 0.38
+    - _Normal_Mult_copy: 0.5
+    - _OcclusionStrength: 1
+    - _OpacityPower: 2
+    - _Outline: 0.012
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - _brightness: 1
+    - _node_1326: 1
+    - _node_2075: 0.04
+    - _node_2204: 1.21
+    - _node_2330: 0
+    - _node_3357: 0
+    - _node_4704: 0
+    - _node_515: -3.99
+    - _node_6328: 0.88
+    - _node_6356: 0.27
+    - _node_6905: 0.85
+    - _node_8650: 0
+    - _saturation: 2
+    - _saturationgradient: 0.2
+    m_Colors:
+    - _Col: {r: 0.572, g: 0.3886927, b: 0.189904, a: 1}
+    - _Color: {r: 0.5058824, g: 0.3372549, b: 0.1176471, a: 1}
+    - _Dirt_Col: {r: 0.409, g: 0.2833452, b: 0.093252, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Emit_From: {r: 1, g: 0, b: 0, a: 1}
+    - _Emit_To: {r: 0, g: 1, b: 0.1310344, a: 1}
+    - _Outline_Col: {r: 0.4392157, g: 0.9254903, b: 0.3019608, a: 1}
+    - _color: {r: 0.336966, g: 0.497, b: 0.336966, a: 1}
+    - _node_535: {r: 1, g: 1, b: 1, a: 1}

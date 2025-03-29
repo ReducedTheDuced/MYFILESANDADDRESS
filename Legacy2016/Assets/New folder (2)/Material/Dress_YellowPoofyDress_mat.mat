@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_Name: Dress_YellowPoofyDress_mat
+  m_Shader: {fileID: 4800000, guid: 4c41bf0e9873d794bb3a237ee6a45f43, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Decal_Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4b5b90431d766d34697ea2bf0adb1261, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Norm_Tex:
+        m_Texture: {fileID: 2800000, guid: c5eb883c34b7e0949ab6b5d7d478aaf8, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _Spec_Tex:
+        m_Texture: {fileID: 2800000, guid: 4d571a7997c8bc749a382f5b83296f00, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Dirt_Add: 0
+    - _DstBlend: 0
+    - _Fresnel: 1.75
+    - _Gloss: 0.083
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Highlight: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _Norm_Mult: 0.56
+    - _OcclusionStrength: 1
+    - _Outline: 0.012
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _Spec: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Base_Col: {r: 0.8862746, g: 0.6509804, b: 0.07450981, a: 1}
+    - _Blue_Col: {r: 0.854902, g: 0.854902, b: 0.854902, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Decal_Col: {r: 0, g: 1, b: 1, a: 1}
+    - _Dirt_Col: {r: 1, g: 0.9724137, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Green_Col: {r: 0.8529412, g: 0.8529412, b: 0.8529412, a: 1}
+    - _Outline_Col: {r: 0.4392157, g: 0.9254903, b: 0.3019608, a: 1}
+    - _Red_Col: {r: 0.885, g: 0.6527774, b: 0.07611002, a: 1}

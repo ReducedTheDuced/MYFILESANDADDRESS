@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1870908652778451}
+  m_IsPrefabParent: 1
+--- !u!1 &1870908652778451
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4046896467793662}
+  - component: {fileID: 114998485644305101}
+  m_Layer: 10
+  m_Name: '[OrangeCollarDress]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4046896467793662
+Transform:
+  m_GameObject: {fileID: 1870908652778451}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4942839916663127}
+  - {fileID: 4807616292813005}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114998485644305101
+MonoBehaviour:
+  m_GameObject: {fileID: 1870908652778451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ce035efee12a141be50953f9c23705, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  SkinnedMeshRenderer: {fileID: 137007770533501120}
+  guidString: 6d815b35-6f68-4ed4-817d-70f141e1a571
+  Type: 101
+  DisplayOnRack: 1
+  UsesHairColor: 0
+  outfitTriggerEnabled: 0
+  triggerEnabledOutsideDormroom: 0
+  Level: 8
+  Rarity: 1
+  NoMaskRarity: 1
+  SelectionGroups:
+  - name: SolidColor
+    noneDecalRarity: 0
+    masks:
+    - {fileID: 11400000, guid: cd8a1b71270547e4c9f5a0a6785f586b, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: d83533f6f95598d4ebab7f8ae5e18fc0, type: 2}
+    - {fileID: 11400000, guid: 380888993460bf9429fe339a03471875, type: 2}
+    - {fileID: 11400000, guid: b8285174fbddbcb448928afb682bb97b, type: 2}
+    decals: []
+  preferredIndex: 0
+  PreferredRackName: Dress
+  RackHeightOffset: 0
+  outfitToolUIControlOffset: {x: 0, y: 0.5, z: 0}
+  uiAnchor: {fileID: 0}
+--- !u!1 &1582258946792489
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4942839916663127}
+  m_Layer: 0
+  m_Name: Torso.Rig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4942839916663127
+Transform:
+  m_GameObject: {fileID: 1582258946792489}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4355089321946608}
+  m_Father: {fileID: 4046896467793662}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1707308872931882
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4355089321946608}
+  m_Layer: 0
+  m_Name: Torso.Bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4355089321946608
+Transform:
+  m_GameObject: {fileID: 1707308872931882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4848142689048628}
+  m_Father: {fileID: 4942839916663127}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1982161481634360
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4848142689048628}
+  m_Layer: 0
+  m_Name: Torso.Bone_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4848142689048628
+Transform:
+  m_GameObject: {fileID: 1982161481634360}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3518934, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4355089321946608}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1283598617625247
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4807616292813005}
+  m_Layer: 0
+  m_Name: TorsoPropGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4807616292813005
+Transform:
+  m_GameObject: {fileID: 1283598617625247}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4101341941870794}
+  m_Father: {fileID: 4046896467793662}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1471528310666275
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4101341941870794}
+  - component: {fileID: 137007770533501120}
+  m_Layer: 0
+  m_Name: OrangeCollarDress
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4101341941870794
+Transform:
+  m_GameObject: {fileID: 1471528310666275}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: 1.150242, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4807616292813005}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
+--- !u!137 &137007770533501120
+SkinnedMeshRenderer:
+  m_GameObject: {fileID: 1471528310666275}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 0430ec7f42debf245a56ebb61d6ade4d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 1
+  m_skinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: b207923aed111b149a009b5455593bb8, type: 2}
+  m_Bones:
+  - {fileID: 4355089321946608}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4355089321946608}
+  m_AABB:
+    m_Center: {x: -0.0001363903, y: 0.04787284, z: -0.005711198}
+    m_Extent: {x: 0.1674119, y: 0.3520461, z: 0.1145653}
+  m_DirtyAABB: 0

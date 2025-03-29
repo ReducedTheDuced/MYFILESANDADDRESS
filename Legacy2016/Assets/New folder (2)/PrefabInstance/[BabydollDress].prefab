@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1752029418811587}
+  m_IsPrefabParent: 1
+--- !u!1 &1752029418811587
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4670233037395376}
+  - component: {fileID: 114802455622512188}
+  m_Layer: 10
+  m_Name: '[BabydollDress]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4670233037395376
+Transform:
+  m_GameObject: {fileID: 1752029418811587}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4047502813150890}
+  - {fileID: 4802357328263174}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114802455622512188
+MonoBehaviour:
+  m_GameObject: {fileID: 1752029418811587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ce035efee12a141be50953f9c23705, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  SkinnedMeshRenderer: {fileID: 137645219171903568}
+  guidString: da55bfc3-47b7-46f6-b548-7fb2c2a5e0bf
+  Type: 101
+  DisplayOnRack: 1
+  UsesHairColor: 0
+  outfitTriggerEnabled: 0
+  triggerEnabledOutsideDormroom: 0
+  Level: 11
+  Rarity: 1
+  NoMaskRarity: 1
+  SelectionGroups:
+  - name: SolidColor
+    noneDecalRarity: 0
+    masks:
+    - {fileID: 11400000, guid: 7ecc509fcf545374e99cef8e93294476, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: 8f1389c84c855b348bbb4b7e2236f1ba, type: 2}
+    - {fileID: 11400000, guid: 506d6ea7ef7a55b47aa53c999ec8c846, type: 2}
+    - {fileID: 11400000, guid: b862e22a2fa6869479678154b473fe7a, type: 2}
+    decals: []
+  preferredIndex: 0
+  PreferredRackName: Dress
+  RackHeightOffset: 0
+  outfitToolUIControlOffset: {x: 0, y: 0.5, z: 0}
+  uiAnchor: {fileID: 0}
+--- !u!1 &1330543646487714
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4047502813150890}
+  m_Layer: 0
+  m_Name: Torso.Rig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4047502813150890
+Transform:
+  m_GameObject: {fileID: 1330543646487714}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4105786982734919}
+  m_Father: {fileID: 4670233037395376}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1815301692423073
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4105786982734919}
+  m_Layer: 0
+  m_Name: Torso.Bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4105786982734919
+Transform:
+  m_GameObject: {fileID: 1815301692423073}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4119254415652109}
+  m_Father: {fileID: 4047502813150890}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1002017765749512
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4119254415652109}
+  m_Layer: 0
+  m_Name: Torso.Bone_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4119254415652109
+Transform:
+  m_GameObject: {fileID: 1002017765749512}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.003518934, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4105786982734919}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1646453117481132
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4802357328263174}
+  m_Layer: 0
+  m_Name: TorsoPropGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4802357328263174
+Transform:
+  m_GameObject: {fileID: 1646453117481132}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4570000333976262}
+  m_Father: {fileID: 4670233037395376}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1868775119644406
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4570000333976262}
+  - component: {fileID: 137645219171903568}
+  m_Layer: 0
+  m_Name: BabydollDress
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4570000333976262
+Transform:
+  m_GameObject: {fileID: 1868775119644406}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 0.444, y: 1.150242, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4802357328263174}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
+--- !u!137 &137645219171903568
+SkinnedMeshRenderer:
+  m_GameObject: {fileID: 1868775119644406}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e76acc1674172ae45bc28e8c68490970, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 1
+  m_skinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: d69a9b8b0565e8e40b85e8c6405f9d29, type: 2}
+  m_Bones:
+  - {fileID: 4105786982734919}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4105786982734919}
+  m_AABB:
+    m_Center: {x: 0, y: 0.01861328, z: -0.009509683}
+    m_Extent: {x: 0.2151367, y: 0.3168536, z: 0.1362987}
+  m_DirtyAABB: 0

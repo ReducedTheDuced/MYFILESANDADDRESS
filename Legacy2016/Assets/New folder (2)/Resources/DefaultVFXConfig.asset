@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f76a03020a73024ba6b731a5d9320b5, type: 3}
+  m_Name: DefaultVFXConfig
+  m_EditorClassIdentifier:
+  DefaultVFXs:
+  - VfxType: 25
+    ParticlePrefab: {fileID: 114439350993042351, guid: 96ac2afbe5618e34aa38cd298c307db6, type: 2}
+  - VfxType: 13
+    ParticlePrefab: {fileID: 114595625173677987, guid: 4fee331298db26b4ca9d2fb53e201bab, type: 2}
+  - VfxType: 41
+    ParticlePrefab: {fileID: 114618461584219542, guid: db35afa6873384342bc354d4f7097dc8, type: 2}

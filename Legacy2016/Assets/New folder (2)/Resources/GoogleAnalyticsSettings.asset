@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b10d073402ae68b46b973d1c4dfbee6a, type: 3}
+  m_Name: GoogleAnalyticsSettings
+  m_EditorClassIdentifier:
+  accounts:
+  - Name: Recroom-Production
+    TrackingID: UA-79246987-1
+    IsOpen: 1
+  - Name: Recroom-Testing
+    TrackingID: UA-79246987-2
+    IsOpen: 1
+  platfromBounds:
+  - platfrom: 0
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 1
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 2
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 3
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 4
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 5
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 7
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 8
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 9
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 10
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 11
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 12
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 13
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 15
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 17
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 18
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 19
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 20
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 21
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 22
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 23
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 24
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 25
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 26
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 27
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 28
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 30
+    profileIndex: 0
+    profileIndexTestMode: 1
+  - platfrom: 31
+    profileIndex: 0
+    profileIndexTestMode: 1
+  showAdditionalParams: 1
+  showAdvancedParams: 1
+  showCParams: 0
+  showAccounts: 1
+  showPlatfroms: 0
+  showTestingMode: 1
+  AppName: RecRoom
+  AppVersion: 1.0
+  UseHTTPS: 0
+  StringEscaping: 1
+  EditorAnalytics: 1
+  IsDisabled: 0
+  IsTestingModeEnabled: 1
+  TestingModeAccIndex: 0
+  IsRequetsCachingEnabled: 1
+  IsQueueTimeEnabled: 1
+  AutoLevelTracking: 1
+  LevelPrefix:
+  LevelPostfix:
+  AutoAppQuitTracking: 1
+  AutoCampaignTracking: 0
+  AutoExceptionTracking: 1
+  AutoAppResumeTracking: 1
+  SubmitSystemInfoOnFirstLaunch: 1
+  UsePlayerSettingsForAppInfo: 1

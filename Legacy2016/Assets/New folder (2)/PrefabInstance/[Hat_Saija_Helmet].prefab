@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1548171724853587}
+  m_IsPrefabParent: 1
+--- !u!1 &1548171724853587
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4089032598261505}
+  - component: {fileID: 114178157666232150}
+  m_Layer: 10
+  m_Name: '[Hat_Saija_Helmet]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4089032598261505
+Transform:
+  m_GameObject: {fileID: 1548171724853587}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.636982, y: 0.1636, z: 0.2131653}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4530880185255925}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114178157666232150
+MonoBehaviour:
+  m_GameObject: {fileID: 1548171724853587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ce035efee12a141be50953f9c23705, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  SkinnedMeshRenderer: {fileID: 137187173405900475}
+  guidString: 274cb9b2-2f59-47ea-9a8d-a5b656d148c6
+  Type: 0
+  DisplayOnRack: 1
+  UsesHairColor: 0
+  outfitTriggerEnabled: 1
+  triggerEnabledOutsideDormroom: 0
+  Level: 1
+  Rarity: 0
+  NoMaskRarity: 1
+  SelectionGroups: []
+  preferredIndex: 4
+  PreferredRackName:
+  RackHeightOffset: 0
+  outfitToolUIControlOffset: {x: 0, y: 0.3, z: 0}
+  uiAnchor: {fileID: 0}
+--- !u!1 &1368294233437795
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4530880185255925}
+  m_Layer: 10
+  m_Name: Meshes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4530880185255925
+Transform:
+  m_GameObject: {fileID: 1368294233437795}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4933354731262071}
+  - {fileID: 4363059391310478}
+  m_Father: {fileID: 4089032598261505}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1354280763003253
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4933354731262071}
+  m_Layer: 0
+  m_Name: Head.Rig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4933354731262071
+Transform:
+  m_GameObject: {fileID: 1354280763003253}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4914304261394210}
+  m_Father: {fileID: 4530880185255925}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1257493711628562
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4914304261394210}
+  m_Layer: 0
+  m_Name: Head.Bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4914304261394210
+Transform:
+  m_GameObject: {fileID: 1257493711628562}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4257779136909186}
+  m_Father: {fileID: 4933354731262071}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1008844786976238
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4257779136909186}
+  m_Layer: 0
+  m_Name: Head.Bone_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4257779136909186
+Transform:
+  m_GameObject: {fileID: 1008844786976238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.1711439, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4914304261394210}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1645004212720352
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4363059391310478}
+  m_Layer: 0
+  m_Name: HeadPropGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4363059391310478
+Transform:
+  m_GameObject: {fileID: 1645004212720352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4950716345143935}
+  m_Father: {fileID: 4530880185255925}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1441230185182721
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4950716345143935}
+  - component: {fileID: 137187173405900475}
+  m_Layer: 0
+  m_Name: SaijaHelmet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4950716345143935
+Transform:
+  m_GameObject: {fileID: 1441230185182721}
+  m_LocalRotation: {x: -1, y: 0, z: 0, w: -1.490116E-07}
+  m_LocalPosition: {x: 0.233, y: 1.679914, z: -1.679914}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4363059391310478}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!137 &137187173405900475
+SkinnedMeshRenderer:
+  m_GameObject: {fileID: 1441230185182721}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: bab6a9225a0a3d6418f469b22e8a3121, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 1
+  m_skinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 0d3f1d7e7ac78364190c222271019871, type: 2}
+  m_Bones:
+  - {fileID: 4914304261394210}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4914304261394210}
+  m_AABB:
+    m_Center: {x: 3.615022E-05, y: -0.004946798, z: -0.004365504}
+    m_Extent: {x: 0.1289999, y: 0.1612413, z: 0.1362118}
+  m_DirtyAABB: 0

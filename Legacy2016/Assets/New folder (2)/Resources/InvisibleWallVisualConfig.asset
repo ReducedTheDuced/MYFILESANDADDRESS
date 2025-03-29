@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b76af0e060468d645b3628b9e060ea85, type: 3}
+  m_Name: InvisibleWallVisualConfig
+  m_EditorClassIdentifier:
+  ImpactDuration: 1
+  MinImpactRadius: 0.1
+  MaxImpactRadius: 1
+  ForceToImpactRadius: 0.12
+  ImpactRadiusGrowthCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 11.6081
+      outSlope: 11.6081
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.1987578
+      value: 0.9580574
+      inSlope: 0.1974494
+      outSlope: 0.1974494
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  ImpactAlphaCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: -0.001242236
+      value: 0.002207637
+      inSlope: 44.42601
+      outSlope: 44.42601
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.04875987
+      value: 1
+      inSlope: 0.06011533
+      outSlope: 0.06011533
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.2
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.75
+      value: 0.008830021
+      inSlope: -0.06934801
+      outSlope: -0.06934801
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0

@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1114864928897674}
+  m_IsPrefabParent: 1
+--- !u!1 &1114864928897674
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4953759800991889}
+  - component: {fileID: 54405751857143931}
+  - component: {fileID: 114229477431799070}
+  - component: {fileID: 114443243034252433}
+  - component: {fileID: 114036762987548983}
+  - component: {fileID: 114282843967360413}
+  - component: {fileID: 114858732650810172}
+  - component: {fileID: 114623974394518331}
+  - component: {fileID: 114649435628552766}
+  - component: {fileID: 114590377222768765}
+  - component: {fileID: 114449350212112332}
+  - component: {fileID: 114449405876661173}
+  - component: {fileID: 114457330086739926}
+  - component: {fileID: 114924004469484874}
+  m_Layer: 10
+  m_Name: '[Extrusion]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4953759800991889
+Transform:
+  m_GameObject: {fileID: 1114864928897674}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &54405751857143931
+Rigidbody:
+  m_GameObject: {fileID: 1114864928897674}
+  serializedVersion: 2
+  m_Mass: 0.1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 2
+--- !u!114 &114229477431799070
+MonoBehaviour:
+  m_GameObject: {fileID: 1114864928897674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8728c8cfcb8c5b844a19eb1075474900, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  castDuration: 0.05
+--- !u!114 &114443243034252433
+MonoBehaviour:
+  m_GameObject: {fileID: 1114864928897674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd112ec6dbb1954db1f126f6f359c4b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  interpolateToHand: 1
+--- !u!114 &114036762987548983
+MonoBehaviour:
+  m_GameObject: {fileID: 1114864928897674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb2e0f122219d945a66239e15550758, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  visibleWhileRemoteVisible: 0
+  ignoredRenderers: []
+  ignoredRendererRoots: []
+  useTeamColorAsAccentColor: 1
+  accentRenderers: []
+  defaultAccentColor: {r: 0, g: 0, b: 0, a: 0}
+  supportsLockedHightlight: 1
+--- !u!114 &114282843967360413
+MonoBehaviour:
+  m_GameObject: {fileID: 1114864928897674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29755b2be4d5d64caa52c597eb4d19e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  group: 0
+  OwnerShipWasTransfered: 0
+  prefixBackup: -1
+  observed: {fileID: 0}
+  synchronization: 2
+  onSerializeTransformOption: 3
+  onSerializeRigidBodyOption: 2
+  ownershipTransfer: 1
+  ObservedComponents:
+  - {fileID: 114858732650810172}
+  viewIdField: 0
+  instantiationId: -1
+  isRuntimeInstantiated: 0
+--- !u!114 &114858732650810172
+MonoBehaviour:
+  m_GameObject: {fileID: 1114864928897674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b9e7dde42ca8f047baef5439fbbfe7e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  snapThreshold: 5
+  minSyncInterval: 5
+--- !u!114 &114623974394518331
+MonoBehaviour:
+  m_GameObject: {fileID: 1114864928897674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac97b9fa00d75cf499e13ff900636c18, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  effectPrefab: {fileID: 0}
+  boundingCollider: {fileID: 0}
+  animInStartOffset: 0.2
+  animOutStartOffset: 0.2
+  supportsAnimateIn: 0
+  supportsAnimateOut: 1
+  SuppressAnimation: 0
+  ignoredRenderers: []
+  additionalRenderers: []
+--- !u!114 &114649435628552766
+MonoBehaviour:
+  m_GameObject: {fileID: 1114864928897674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5793db1e1e363a4eb59cf866970beef, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  onPickup:
+    audioClip: {fileID: 0}
+    volume: 0.5
+    pitchVariation: 0
+  onRelease:
+    audioClip: {fileID: 8300000, guid: ec003b478af09c84e98da433a0806cde, type: 3}
+    volume: 0.5
+    pitchVariation: 0
+  onDrop:
+    audioClip: {fileID: 0}
+    volume: 0.5
+    pitchVariation: 0
+  onReset:
+    audioClip: {fileID: 0}
+    volume: 1
+    pitchVariation: 0
+  onApplyForceLocal:
+    audioClip: {fileID: 0}
+    volume: 1
+    pitchVariation: 0
+  onApplyForceRemote:
+    audioClip: {fileID: 0}
+    volume: 1
+    pitchVariation: 0
+--- !u!114 &114590377222768765
+MonoBehaviour:
+  m_GameObject: {fileID: 1114864928897674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba2956b86a4fd6b45b866e21c0aad8f8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  audioMappings:
+  - Name: Static
+    Layers:
+      serializedVersion: 2
+      m_Bits: 3073
+    Tag:
+    velocityToVolumeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: -0.005463332
+        value: 0.2260066
+        inSlope: 0.7697877
+        outSlope: 0.7697877
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0.7697877
+        outSlope: 0.7697877
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    Clips:
+    - audioClip: {fileID: 8300000, guid: 4b54892823142f24b835841d80b8dc9d, type: 3}
+      volume: 1
+      pitchVariation: 0.05
+    InstanceLimitDuration: 0.5
+--- !u!114 &114449350212112332
+MonoBehaviour:
+  m_GameObject: {fileID: 1114864928897674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299d40b255ac3b043a19f9c56f1ea35a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114449405876661173
+MonoBehaviour:
+  m_GameObject: {fileID: 1114864928897674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1224904829fc2874ba2d32b234d02735, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  useUnscaledTime: 1
+--- !u!114 &114457330086739926
+MonoBehaviour:
+  m_GameObject: {fileID: 1114864928897674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5d6ab77b291ea42b6a321b70fcc866, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  isSmartTool: 0
+  canBeUnlocked: 1
+  leftHandPickupTransforms:
+    Default: {fileID: 0}
+    SteamVrVive: {fileID: 0}
+    SteamVrOculus: {fileID: 0}
+    Oculus: {fileID: 0}
+  rightHandPickupTransforms:
+    Default: {fileID: 0}
+    SteamVrVive: {fileID: 0}
+    SteamVrOculus: {fileID: 0}
+    Oculus: {fileID: 0}
+  supportsGravityPickup: 1
+  supportsOffCenterGravityPickup: 1
+  supportsPhysicalPickup: 1
+  supportsOffCenterPickup: 1
+  supportsTeleportHits: 0
+  pickedCollisionLayer: 18
+  overrideVelocityOnRelease: 1
+  multiplyVelocityOnRelease: 0
+  releaseLinearSpeedMultiplierCurve:
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    minValue: 0
+    maxValue: 0
+    duration: 0
+  dynamicKinematicCollisionsEnabled: 0
+  hasMaxSpeed: 0
+  maxSpeed: 10
+  spin: 0
+  SupportsAssistedCatching: 1
+  InputAmount: 0
+  material: {fileID: 2100000, guid: 85a2adafba2c7f349acd4579ac8c16cb, type: 2}
+  radius: 0.033
+  loopingExtrusionAudio:
+    audioClip: {fileID: 8300000, guid: 5a600ee53e5e88a4aa810a7f842f2d1f, type: 3}
+    volume: 0.8
+    pitchVariation: 0.25
+--- !u!114 &114924004469484874
+MonoBehaviour:
+  m_GameObject: {fileID: 1114864928897674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95276e9d8404d6f41a21587d2153baea, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  AllowedInPreGame: 1
+  AllowSpectators: 1
+  AllowAllActiveTeams: 1
+  AllowedTeams:

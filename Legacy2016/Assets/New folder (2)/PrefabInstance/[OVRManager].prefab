@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1872002815759740}
+  m_IsPrefabParent: 1
+--- !u!1 &1872002815759740
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4910260899591099}
+  - component: {fileID: 114754065275096240}
+  - component: {fileID: 114319138250053325}
+  m_Layer: 0
+  m_Name: '[OVRManager]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4910260899591099
+Transform:
+  m_GameObject: {fileID: 1872002815759740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114754065275096240
+MonoBehaviour:
+  m_GameObject: {fileID: 1872002815759740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 594809866ec2dde4c9edabd4ee329b0e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  queueAhead: 1
+  useRecommendedMSAALevel: 0
+  enableAdaptiveResolution: 0
+  maxRenderScale: 1
+  minRenderScale: 0.7
+  _trackingOriginType: 1
+  usePositionTracking: 1
+  useIPDInPositionTracking: 1
+  resetTrackerOnLoad: 0
+--- !u!114 &114319138250053325
+MonoBehaviour:
+  m_GameObject: {fileID: 1872002815759740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c4cbccdb06ad534297ee7ee4ed8c9c0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

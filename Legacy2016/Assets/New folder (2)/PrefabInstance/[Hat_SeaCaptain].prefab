@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1087344465304213}
+  m_IsPrefabParent: 1
+--- !u!1 &1087344465304213
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4691828316062744}
+  - component: {fileID: 114040261217864022}
+  m_Layer: 10
+  m_Name: '[Hat_SeaCaptain]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4691828316062744
+Transform:
+  m_GameObject: {fileID: 1087344465304213}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4666877005463967}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114040261217864022
+MonoBehaviour:
+  m_GameObject: {fileID: 1087344465304213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ce035efee12a141be50953f9c23705, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  SkinnedMeshRenderer: {fileID: 137626134292183001}
+  guidString: f5c9743f-e77c-42f2-ba63-9843342cbf8e
+  Type: 0
+  DisplayOnRack: 1
+  UsesHairColor: 0
+  outfitTriggerEnabled: 1
+  triggerEnabledOutsideDormroom: 0
+  Level: 12
+  Rarity: 1
+  NoMaskRarity: 1
+  SelectionGroups:
+  - name: SolidColor
+    noneDecalRarity: 1
+    masks:
+    - {fileID: 11400000, guid: b204b8ae48a29fb409815171d1688bb8, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: 74d196d527369fb40a1ed7d6b424cc88, type: 2}
+    - {fileID: 11400000, guid: bed4bdb6e23112e49826b3bfa56d1f19, type: 2}
+    - {fileID: 11400000, guid: 079b7514cb9e8ac4b9b4a5582e1623e7, type: 2}
+    decals: []
+  preferredIndex: 4
+  PreferredRackName:
+  RackHeightOffset: 0
+  outfitToolUIControlOffset: {x: 0, y: 0.3, z: 0}
+  uiAnchor: {fileID: 0}
+--- !u!1 &1796584042554124
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4666877005463967}
+  m_Layer: 10
+  m_Name: Meshes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4666877005463967
+Transform:
+  m_GameObject: {fileID: 1796584042554124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4499719523306049}
+  - {fileID: 4717571059871707}
+  m_Father: {fileID: 4691828316062744}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1318668508648358
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4499719523306049}
+  m_Layer: 0
+  m_Name: Head.Rig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4499719523306049
+Transform:
+  m_GameObject: {fileID: 1318668508648358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4794583329253099}
+  m_Father: {fileID: 4666877005463967}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1253877922433430
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4794583329253099}
+  m_Layer: 0
+  m_Name: Head.Bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4794583329253099
+Transform:
+  m_GameObject: {fileID: 1253877922433430}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4835295027146427}
+  m_Father: {fileID: 4499719523306049}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1529125700122925
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4835295027146427}
+  m_Layer: 0
+  m_Name: Head.Bone_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4835295027146427
+Transform:
+  m_GameObject: {fileID: 1529125700122925}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.001711439, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4794583329253099}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1102897508436868
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4717571059871707}
+  m_Layer: 0
+  m_Name: HeadPropGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4717571059871707
+Transform:
+  m_GameObject: {fileID: 1102897508436868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4127795449030171}
+  m_Father: {fileID: 4666877005463967}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1544269888729637
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4127795449030171}
+  - component: {fileID: 137626134292183001}
+  m_Layer: 0
+  m_Name: SeaCaptainHat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4127795449030171
+Transform:
+  m_GameObject: {fileID: 1544269888729637}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: 1.679914, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4717571059871707}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
+--- !u!137 &137626134292183001
+SkinnedMeshRenderer:
+  m_GameObject: {fileID: 1544269888729637}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: bf86e77e1f03fac428acdc3f2e6e0e94, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 1
+  m_skinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 3a07bc1414a114945be9b358933836ff, type: 2}
+  m_Bones:
+  - {fileID: 4794583329253099}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4794583329253099}
+  m_AABB:
+    m_Center: {x: 0, y: 0.001441409, z: 0.0001660087}
+    m_Extent: {x: 0.001193923, y: 0.0005942916, z: 0.001602788}
+  m_DirtyAABB: 0

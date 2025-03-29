@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1883454716469595}
+  m_IsPrefabParent: 1
+--- !u!1 &1883454716469595
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4986764892062218}
+  - component: {fileID: 114340410501725249}
+  m_Layer: 10
+  m_Name: '[PlayerTrail]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4986764892062218
+Transform:
+  m_GameObject: {fileID: 1883454716469595}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.54175, y: -0.78, z: 48.022}
+  m_LocalScale: {x: 0.65, y: 0.65, z: 0.65}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114340410501725249
+MonoBehaviour:
+  m_GameObject: {fileID: 1883454716469595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3098134e44dd8954f8231a3e79eb74db, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  materials:
+  - {fileID: 2100000, guid: dcdfe8796e27d364a809d69465237005, type: 2}
+  - {fileID: 2100000, guid: 25ac749a14428794dbd78af3dad34fc2, type: 2}
+  castShadows: 0
+  receiveShadows: 0
+  lifetime: 0
+  alphas: {x: 0.1, y: 1}
+  widths: {x: 0.6, y: 1}
+  minSpacing: 0.15
+  displayStartCap: 0
+  startCap: {fileID: 0}
+  displayEndCap: 0
+  endCap: {fileID: 0}
+  fadeOutRate: 35

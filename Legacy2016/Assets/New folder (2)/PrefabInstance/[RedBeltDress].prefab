@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1271450517709495}
+  m_IsPrefabParent: 1
+--- !u!1 &1271450517709495
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4996880130088810}
+  - component: {fileID: 114098944951908891}
+  m_Layer: 10
+  m_Name: '[RedBeltDress]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4996880130088810
+Transform:
+  m_GameObject: {fileID: 1271450517709495}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4180031834632293}
+  - {fileID: 4627631432057515}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114098944951908891
+MonoBehaviour:
+  m_GameObject: {fileID: 1271450517709495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ce035efee12a141be50953f9c23705, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  SkinnedMeshRenderer: {fileID: 137189247940950728}
+  guidString: f51a7ed5-52ea-485f-a430-303697f6fec9
+  Type: 101
+  DisplayOnRack: 1
+  UsesHairColor: 0
+  outfitTriggerEnabled: 0
+  triggerEnabledOutsideDormroom: 0
+  Level: 5
+  Rarity: 1
+  NoMaskRarity: 1
+  SelectionGroups:
+  - name: SolidColor
+    noneDecalRarity: 0
+    masks:
+    - {fileID: 11400000, guid: 41f73661fadb25e459c04eef9fb5a29f, type: 2}
+    swatches:
+    - {fileID: 11400000, guid: 6cd9a1f4c4eeb9a4ebc9f7dbaf789f59, type: 2}
+    - {fileID: 11400000, guid: d1c8ab79afb0da647ac07aaca3bbf98c, type: 2}
+    - {fileID: 11400000, guid: e7ab49a0d6da3e34f88637cc0156beb1, type: 2}
+    decals: []
+  preferredIndex: 0
+  PreferredRackName: Dress
+  RackHeightOffset: 0
+  outfitToolUIControlOffset: {x: 0, y: 0.5, z: 0}
+  uiAnchor: {fileID: 0}
+--- !u!1 &1278343125428290
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4180031834632293}
+  m_Layer: 0
+  m_Name: Torso.Rig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4180031834632293
+Transform:
+  m_GameObject: {fileID: 1278343125428290}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4350100841387509}
+  m_Father: {fileID: 4996880130088810}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1016757557086277
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4350100841387509}
+  m_Layer: 0
+  m_Name: Torso.Bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4350100841387509
+Transform:
+  m_GameObject: {fileID: 1016757557086277}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4438421096188339}
+  m_Father: {fileID: 4180031834632293}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1228303294506473
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4438421096188339}
+  m_Layer: 0
+  m_Name: Torso.Bone_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4438421096188339
+Transform:
+  m_GameObject: {fileID: 1228303294506473}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3518934, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4350100841387509}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1168962283909187
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4627631432057515}
+  m_Layer: 0
+  m_Name: TorsoPropGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4627631432057515
+Transform:
+  m_GameObject: {fileID: 1168962283909187}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4652858807933908}
+  m_Father: {fileID: 4996880130088810}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1863466286935998
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4652858807933908}
+  - component: {fileID: 137189247940950728}
+  m_Layer: 0
+  m_Name: RedBeltDress
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4652858807933908
+Transform:
+  m_GameObject: {fileID: 1863466286935998}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: 1.150242, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4627631432057515}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
+--- !u!137 &137189247940950728
+SkinnedMeshRenderer:
+  m_GameObject: {fileID: 1863466286935998}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: d1e72100b5079d447a75796951867718, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 1
+  m_skinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 5581dedc58b7e134494c27c8053b2693, type: 2}
+  m_Bones:
+  - {fileID: 4350100841387509}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4350100841387509}
+  m_AABB:
+    m_Center: {x: 0, y: 0.02246183, z: -0.007167041}
+    m_Extent: {x: 0.2156982, y: 0.3070099, z: 0.1444168}
+  m_DirtyAABB: 0

@@ -1,0 +1,452 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1227126957235785}
+  m_IsPrefabParent: 1
+--- !u!1 &1227126957235785
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4662117450204041}
+  - component: {fileID: 54966332844771847}
+  - component: {fileID: 114446322757934817}
+  - component: {fileID: 114126242007172377}
+  - component: {fileID: 114667140038038735}
+  - component: {fileID: 114095605903505710}
+  - component: {fileID: 114629309236304277}
+  - component: {fileID: 114678626457848771}
+  - component: {fileID: 114493954625793368}
+  - component: {fileID: 114422803584783134}
+  - component: {fileID: 114876332431315196}
+  m_Layer: 10
+  m_Name: '[PokerChipGroup]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4662117450204041
+Transform:
+  m_GameObject: {fileID: 1227126957235785}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.385267, y: 0.335801, z: -13.46094}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4116295809425159}
+  - {fileID: 4772774045196530}
+  - {fileID: 4825687150103962}
+  - {fileID: 4408324705219469}
+  - {fileID: 4052181026558265}
+  - {fileID: 4470234007200286}
+  - {fileID: 4276233448362933}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &54966332844771847
+Rigidbody:
+  m_GameObject: {fileID: 1227126957235785}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &114446322757934817
+MonoBehaviour:
+  m_GameObject: {fileID: 1227126957235785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8728c8cfcb8c5b844a19eb1075474900, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  castDuration: 0.05
+--- !u!114 &114126242007172377
+MonoBehaviour:
+  m_GameObject: {fileID: 1227126957235785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd112ec6dbb1954db1f126f6f359c4b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  interpolateToHand: 1
+--- !u!114 &114667140038038735
+MonoBehaviour:
+  m_GameObject: {fileID: 1227126957235785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb2e0f122219d945a66239e15550758, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  visibleWhileRemoteVisible: 0
+  ignoredRenderers: []
+  ignoredRendererRoots: []
+  useTeamColorAsAccentColor: 1
+  accentRenderers: []
+  defaultAccentColor: {r: 0, g: 0, b: 0, a: 0}
+  supportsLockedHightlight: 1
+--- !u!114 &114095605903505710
+MonoBehaviour:
+  m_GameObject: {fileID: 1227126957235785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29755b2be4d5d64caa52c597eb4d19e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  group: 0
+  OwnerShipWasTransfered: 0
+  prefixBackup: -1
+  observed: {fileID: 0}
+  synchronization: 2
+  onSerializeTransformOption: 3
+  onSerializeRigidBodyOption: 2
+  ownershipTransfer: 1
+  ObservedComponents:
+  - {fileID: 114629309236304277}
+  viewIdField: 0
+  instantiationId: -1
+  isRuntimeInstantiated: 0
+--- !u!114 &114629309236304277
+MonoBehaviour:
+  m_GameObject: {fileID: 1227126957235785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b9e7dde42ca8f047baef5439fbbfe7e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  snapThreshold: 5
+  minSyncInterval: 5
+--- !u!114 &114678626457848771
+MonoBehaviour:
+  m_GameObject: {fileID: 1227126957235785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6841b93de4559514984da8897b5b2b56, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  buffer: {x: 0.02, y: 0.02, z: 0.02}
+--- !u!114 &114493954625793368
+MonoBehaviour:
+  m_GameObject: {fileID: 1227126957235785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5793db1e1e363a4eb59cf866970beef, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  onPickup:
+    audioClip: {fileID: 8300000, guid: cb58fe4d255b4a44eaacd36f3f036923, type: 3}
+    volume: 1
+    pitchVariation: 0.05
+  onRelease:
+    audioClip: {fileID: 0}
+    volume: 1
+    pitchVariation: 0
+  onDrop:
+    audioClip: {fileID: 0}
+    volume: 1
+    pitchVariation: 0.05
+  onReset:
+    audioClip: {fileID: 0}
+    volume: 1
+    pitchVariation: 0
+  onApplyForceLocal:
+    audioClip: {fileID: 0}
+    volume: 1
+    pitchVariation: 0
+  onApplyForceRemote:
+    audioClip: {fileID: 0}
+    volume: 1
+    pitchVariation: 0
+--- !u!114 &114422803584783134
+MonoBehaviour:
+  m_GameObject: {fileID: 1227126957235785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba2956b86a4fd6b45b866e21c0aad8f8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  audioMappings:
+  - Name:
+    Layers:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    Tag:
+    velocityToVolumeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    Clips:
+    - audioClip: {fileID: 8300000, guid: cb58fe4d255b4a44eaacd36f3f036923, type: 3}
+      volume: 0
+      pitchVariation: 0
+    InstanceLimitDuration: 0.25
+--- !u!114 &114876332431315196
+MonoBehaviour:
+  m_GameObject: {fileID: 1227126957235785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935df1dfdf856ba438025e700a3d907f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  isSmartTool: 1
+  canBeUnlocked: 1
+  leftHandPickupTransforms:
+    Default: {fileID: 4408324705219469}
+    SteamVrVive: {fileID: 4408324705219469}
+    SteamVrOculus: {fileID: 4408324705219469}
+    Oculus: {fileID: 4408324705219469}
+  rightHandPickupTransforms:
+    Default: {fileID: 4052181026558265}
+    SteamVrVive: {fileID: 4052181026558265}
+    SteamVrOculus: {fileID: 4052181026558265}
+    Oculus: {fileID: 4052181026558265}
+  supportsGravityPickup: 1
+  supportsOffCenterGravityPickup: 0
+  supportsPhysicalPickup: 1
+  supportsOffCenterPickup: 1
+  supportsTeleportHits: 0
+  pickedCollisionLayer: 18
+  overrideVelocityOnRelease: 1
+  multiplyVelocityOnRelease: 0
+  releaseLinearSpeedMultiplierCurve:
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    minValue: 0
+    maxValue: 0
+    duration: 0
+  dynamicKinematicCollisionsEnabled: 0
+  hasMaxSpeed: 0
+  maxSpeed: 10
+  spin: 0
+  SupportsAssistedCatching: 1
+  InputAmount: 0
+  defaultSearchCollider: {fileID: 114847828929509361}
+  heldSearchCollider: {fileID: 114560894472844897}
+  removeMinDistance: 0.05
+  stackOffsetTransform: {fileID: 4772774045196530}
+  minDeckDrawChipDistance: 0.5
+--- !u!1 &1638654317883596
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4116295809425159}
+  - component: {fileID: 65043931980988496}
+  - component: {fileID: 114882845962036349}
+  m_Layer: 10
+  m_Name: BoundingBoxCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4116295809425159
+Transform:
+  m_GameObject: {fileID: 1638654317883596}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4662117450204041}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65043931980988496
+BoxCollider:
+  m_GameObject: {fileID: 1638654317883596}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.1, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114882845962036349
+MonoBehaviour:
+  m_GameObject: {fileID: 1638654317883596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f2d4adc8ae8b214f83855a190bf05d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  kinematicBounciness: 0.6
+  impactType: 0
+  ThisRigidbody: {fileID: 0}
+  ThisTrackedVelocity: {fileID: 0}
+  Tool: {fileID: 0}
+--- !u!1 &1628484306224889
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4772774045196530}
+  m_Layer: 10
+  m_Name: StackTransform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4772774045196530
+Transform:
+  m_GameObject: {fileID: 1628484306224889}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.006, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4662117450204041}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1042697129937858
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4825687150103962}
+  m_Layer: 10
+  m_Name: DeckTransform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4825687150103962
+Transform:
+  m_GameObject: {fileID: 1042697129937858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0015, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4662117450204041}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1785583110215687
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4408324705219469}
+  m_Layer: 10
+  m_Name: LeftHandPickup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4408324705219469
+Transform:
+  m_GameObject: {fileID: 1785583110215687}
+  m_LocalRotation: {x: 0.2588186, y: 0, z: 0, w: 0.965926}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0644002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4662117450204041}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 29.99994, y: 0, z: 0}
+--- !u!1 &1208822817792623
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4052181026558265}
+  m_Layer: 10
+  m_Name: RightHandPickup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4052181026558265
+Transform:
+  m_GameObject: {fileID: 1208822817792623}
+  m_LocalRotation: {x: 0.2588186, y: 0, z: 0, w: 0.965926}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0644002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4662117450204041}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 29.99994, y: 0, z: 0}
+--- !u!1 &1487692597588790
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4470234007200286}
+  - component: {fileID: 114847828929509361}
+  m_Layer: 10
+  m_Name: OverlapCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4470234007200286
+Transform:
+  m_GameObject: {fileID: 1487692597588790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4662117450204041}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114847828929509361
+MonoBehaviour:
+  m_GameObject: {fileID: 1487692597588790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6841b93de4559514984da8897b5b2b56, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  buffer: {x: 0.02, y: 0.02, z: 0.02}
+--- !u!1 &1761385144526550
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4276233448362933}
+  - component: {fileID: 114560894472844897}
+  m_Layer: 10
+  m_Name: HeldOverlapCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4276233448362933
+Transform:
+  m_GameObject: {fileID: 1761385144526550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4662117450204041}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114560894472844897
+MonoBehaviour:
+  m_GameObject: {fileID: 1761385144526550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6841b93de4559514984da8897b5b2b56, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  buffer: {x: 0.02, y: 0.02, z: 0.02}
