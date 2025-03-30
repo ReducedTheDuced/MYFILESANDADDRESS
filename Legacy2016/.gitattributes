@@ -1,3 +1,0 @@
-# Put Rec Room Studio package archive files in LFS (in case you choose to track them in git after all):
-/RecRoomStudioPackages/*.tgz filter=lfs diff=lfs merge=lfs -text
-/RecRoomStudioPackages/*.TGZ filter=lfs diff=lfs merge=lfs -text
